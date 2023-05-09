@@ -1,7 +1,15 @@
 # INF655 Final Project
 
-# Antonio Hernandez
-# Muvva
-# 5 - 11 - 23
+About the project..
 
-Temp file
+Description..
+
+
+## Features
+- 
+- 
+- 
+
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
