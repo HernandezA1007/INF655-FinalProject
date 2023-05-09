@@ -1,0 +1,43 @@
+.home-page {
+    background-color: #333;
+    padding: 2rem 0;
+  }
+  
+.home-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+.home-page-title, .skills-title, .interests-title { /* added .skills-title, .interests-title */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+.home-page-description {
+    font-size: 1.25rem;
+    text-align: center;
+    /* color: #fff; */
+    text-align: center;
+  }
+
+.skills-title, .interests-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  
+}
+
+.skills-list, .interests-list {
+  list-style-type: disc; /* none */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around; /* center */
+  flex-wrap: wrap;
+}
+
+.skills-list li, .interests-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}

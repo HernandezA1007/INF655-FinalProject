@@ -1,0 +1,15 @@
+.project {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .project-images {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .project-small-images {
+    display: flex;
+    gap: 1rem;
+  }
