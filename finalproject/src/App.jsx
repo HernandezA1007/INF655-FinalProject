@@ -7,20 +7,23 @@ import AboutPage from "./sections/about/AboutPage"; // information
 import ProjectsPage from "./sections/projects/ProjectsPage";
 import ContactPage from "./sections/contact/ContactPage"; // comments
 import Footer from "./sections/footer/Footer";
+import { ProvideAuth } from "./useAuth";
 
 
 const App = () => {
   return (
     <>
-      <main>
-        <Navbar />
-        <Header />
-        <HomePage />
-        <AboutPage />
-        <ProjectsPage />
-        <ContactPage />
-        <Footer />
-      </main>
+      <ProvideAuth>
+        <main>
+          <Navbar />
+          <Header />
+          <HomePage />
+          <AboutPage />
+          <ProjectsPage />
+          <ContactPage />
+          <Footer />
+        </main>
+      </ProvideAuth>
     </>
   );
 };
