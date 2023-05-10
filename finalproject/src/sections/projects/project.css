@@ -1,4 +1,4 @@
-.project {
+/* .project {
     display: flex;
     gap: 2rem;
   }
@@ -12,4 +12,137 @@
   .project-small-images {
     display: flex;
     gap: 1rem;
+  } */
+
+
+
+/* .project {
+  display: flex;
+  gap: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.project-images {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-small-images {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-info a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+.project-info a:hover {
+  text-decoration: underline;
+} */
+
+.project {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  background-color: #333;
+  border-radius: 15px;
+  padding: 2rem;
+  color: #f9f9f9;
+}
+
+.project-images {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-small-images {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-info h2 {
+  font-size: 1.5rem;
+  color: #ff4f4f;
+  margin-bottom: 0.5rem;
+}
+
+.project-info a {
+  color: #ff4f4f;
+  text-decoration: none;
+}
+
+.project-info ul {
+  padding-left: 1rem;
+  margin-bottom: 2.5rem;
+  list-style-position: inside;
+}
+
+.project-info a:hover {
+  text-decoration: underline;
+}
+
+.project-info h2,
+.project-info p {
+  margin-bottom: 1rem;
+}
+
+.technology {
+  background-color: #ff4f4f;
+  color: #f9f9f9;
+  border-radius: 3px;
+  padding: 0.1rem 0.5rem;
+  margin-right: 0.25rem;
+}
+
+.github-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  /* background-color: #ff4f4f; */
+  color: #f9f9f9;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.github-link:hover {
+  background-color: #e44e4e; 
+  text-decoration: none;
+  color: #fff;
+}
+
+.project-info .challenge {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-info .challenge {
+  padding-top: 2rem;
+  font-weight: 500;
+  color: #f9f9f9;
+}
+
+/* @media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    align-items: column;
   }
+  .project-images {
+    align-items: center;
+  }
+} */
+
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+  }
+}

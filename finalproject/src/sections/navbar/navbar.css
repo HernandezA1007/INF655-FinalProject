@@ -35,10 +35,14 @@ nav img {
   }
 
   .navbar {
+    background-color: rgba(0, 0, 0, 0.7); 
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: center; /* space-between */
     align-items: center;
     padding: 0 2rem;
+    z-index: 100;
   }
   
   .navbar-container {
